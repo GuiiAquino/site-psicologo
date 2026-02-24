@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dra. Sofia Mendes | Psicóloga Clínica</title>
+    <meta name="description"
+        content="Dra. Sofia Mendes é psicóloga clínica especializada em ansiedade, relacionamentos e desenvolvimento pessoal. Agende sua consulta e comece sua jornada de transformação." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- NAV -->
+    <nav id="navbar">
+        <div class="nav-inner">
+            <a href="#hero" class="nav-logo">Dr<span>a</span>. Sofia Mendes</a>
+            <ul class="nav-links">
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#how">Como Funciona</a></li>
+                <li><a href="#testimonials">Depoimentos</a></li>
+                <li><a href="#contact" class="nav-cta">Agendar Consulta</a></li>
+            </ul>
+            <button class="nav-hamburger" id="hamburger" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+        <div class="nav-mobile" id="nav-mobile">
+            <a href="#about">Sobre</a>
+            <a href="#services">Serviços</a>
+            <a href="#how">Como Funciona</a>
+            <a href="#testimonials">Depoimentos</a>
+            <a href="#contact">Agendar Consulta</a>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="hero">
+        <div class="hero-bg">
+            <div class="hero-blob blob-1"></div>
+            <div class="hero-blob blob-2"></div>
+        </div>
+        <div class="hero-inner">
+            <div class="hero-text reveal">
+                <p class="hero-eyebrow">Psicologia Clínica &amp; Bem-Estar</p>
+                <h1>Você não precisa enfrentar tudo <em>sozinha</em>.</h1>
+                <p class="hero-sub">Ofereço um espaço seguro, sem julgamentos, para que você possa compreender suas
+                    emoções, fortalecer seus relacionamentos e construir a vida que deseja — um passo de cada vez.</p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn-primary">Agendar Consulta</a>
+                    <a href="#about" class="btn btn-secondary">Saiba Mais</a>
+                </div>
+                <div class="hero-trust">
+                    <span>✦ CRP 06/123456</span>
+                    <span>✦ +8 anos de experiência</span>
+                    <span>✦ Atendimento online e presencial</span>
+                </div>
+            </div>
+            <div class="hero-photo reveal delay-1">
+                <div class="photo-frame">
+                    <div class="photo-inner">
+                        <svg viewBox="0 0 320 420" fill="none" xmlns="http://www.w3.org/2000/svg" class="photo-svg">
+                            <!-- Background wash -->
+                            <rect width="320" height="420" fill="#e8e0d5" />
+                            <!-- Soft bg gradient -->
+                            <ellipse cx="200" cy="80" rx="160" ry="120" fill="#f5ede2" opacity="0.8" />
+                            <ellipse cx="80" cy="350" rx="120" ry="100" fill="#d4cfc8" opacity="0.5" />
+                            <!-- Plant leaves (soft) -->
+                            <ellipse cx="290" cy="120" rx="35" ry="70" fill="#b5c4a8" opacity="0.6"
+                                transform="rotate(-20 290 120)" />
+                            <ellipse cx="275" cy="90" rx="25" ry="55" fill="#c5d4b8" opacity="0.5"
+                                transform="rotate(-10 275 90)" />
+                            <ellipse cx="305" cy="95" rx="20" ry="50" fill="#a8bfa0" opacity="0.4"
+                                transform="rotate(-35 305 95)" />
+                            <!-- Body / dress (soft neutral) -->
+                            <path d="M90 420 Q90 310 160 280 Q230 310 230 420 Z" fill="#d4c8bc" />
+                            <path d="M100 420 Q105 330 160 290 Q215 330 220 420 Z" fill="#c8bdb2" />
+                            <!-- Neck -->
+                            <rect x="148" y="220" width="24" height="65" rx="12" fill="#d4a882" />
+                            <!-- Head -->
+                            <ellipse cx="160" cy="200" rx="60" ry="72" fill="#d4a882" />
+                            <!-- Hair -->
+                            <ellipse cx="160" cy="165" rx="62" ry="55" fill="#7a5c3c" />
+                            <ellipse cx="105" cy="195" rx="14" ry="40" fill="#7a5c3c" />
+                            <ellipse cx="215" cy="195" rx="14" ry="40" fill="#7a5c3c" />
+                            <path d="M100 165 Q105 230 110 240 Q105 215 100 165Z" fill="#6a4e30" />
+                            <path d="M220 165 Q215 230 210 240 Q215 215 220 165Z" fill="#6a4e30" />
+                            <!-- Face features -->
+                            <!-- Eyes -->
+                            <ellipse cx="140" cy="202" rx="9" ry="7" fill="#fff" />
+                            <ellipse cx="140" cy="203" rx="6" ry="5" fill="#4a3020" />
+                            <ellipse cx="140" cy="202" rx="2" ry="2" fill="#1a0a05" />
+                            <ellipse cx="138" cy="200" rx="1.5" ry="1.5" fill="#fff" opacity="0.7" />
+                            <ellipse cx="180" cy="202" rx="9" ry="7" fill="#fff" />
+                            <ellipse cx="180" cy="203" rx="6" ry="5" fill="#4a3020" />
+                            <ellipse cx="180" cy="202" rx="2" ry="2" fill="#1a0a05" />
+                            <ellipse cx="178" cy="200" rx="1.5" ry="1.5" fill="#fff" opacity="0.7" />
+                            <!-- Smile -->
+                            <path d="M148 222 Q160 234 172 222" stroke="#b07850" stroke-width="2.5" fill="none"
+                                stroke-linecap="round" />
+                            <!-- Blush -->
+                            <ellipse cx="127" cy="218" rx="12" ry="7" fill="#dba090" opacity="0.35" />
+                            <ellipse cx="193" cy="218" rx="12" ry="7" fill="#dba090" opacity="0.35" />
+                            <!-- Eyebrows -->
+                            <path d="M128 192 Q140 186 151 190" stroke="#6a4822" stroke-width="2.2" fill="none"
+                                stroke-linecap="round" />
+                            <path d="M168 190 Q179 186 192 192" stroke="#6a4822" stroke-width="2.2" fill="none"
+                                stroke-linecap="round" />
+                            <!-- Nose -->
+                            <path d="M157 204 Q155 214 160 217 Q165 214 163 204" stroke="#c09070" stroke-width="1.5"
+                                fill="none" stroke-linecap="round" />
+                            <!-- Earrings -->
+                            <circle cx="100" cy="218" r="4" fill="#c8a87a" />
+                            <circle cx="220" cy="218" r="4" fill="#c8a87a" />
+                            <!-- Collar / blouse detail -->
+                            <path d="M138 280 Q160 268 182 280 L175 300 Q160 290 145 300 Z" fill="#e8ddd5" />
+                        </svg>
+                    </div>
+                    <div class="photo-badge">
+                        <span class="badge-icon">🌿</span>
+                        <div>
+                            <strong>Dra. Sofia Mendes</strong>
+                            <small>Psicóloga Clínica · CRP 06/123456</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="photo-ring photo-ring-1"></div>
+                <div class="photo-ring photo-ring-2"></div>
+            </div>
+        </div>
+        <div class="hero-scroll-hint">
+            <span>Rolar</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-stats reveal">
+                    <div class="stat-card">
+                        <strong>8+</strong>
+                        <span>Anos de experiência</span>
+                    </div>
+                    <div class="stat-card">
+                        <strong>500+</strong>
+                        <span>Pacientes atendidos</span>
+                    </div>
+                    <div class="stat-card">
+                        <strong>CRP</strong>
+                        <span>06/123456</span>
+                    </div>
+                    <div class="about-quote reveal delay-1">
+                        <blockquote>"Acredito que cada pessoa carrega dentro de si a capacidade de se transformar — meu
+                            papel é caminhar ao seu lado nessa jornada."</blockquote>
+                    </div>
+                </div>
+                <div class="about-content reveal delay-2">
+                    <p class="section-label">Sobre Mim</p>
+                    <h2>Uma abordagem que une ciência e humanidade</h2>
+                    <p>Sou Sofia Mendes, psicóloga clínica formada pela Universidade de São Paulo (USP), com
+                        especialização em Terapia Cognitivo-Comportamental (TCC) e pós-graduação em Psicologia Positiva.
+                    </p>
+                    <p>Ao longo de mais de 8 anos de prática clínica, trabalhei com pessoas que enfrentam ansiedade,
+                        burnout, dificuldades nos relacionamentos e questões de autoestima. Minha abordagem combina
+                        rigor técnico com escuta genuína — porque acredito que a transformação acontece quando nos
+                        sentimos realmente compreendidos.</p>
+                    <p>Ofereço atendimento presencial em São Paulo e sessões online para todo o Brasil.</p>
+                    <div class="credentials">
+                        <div class="cred-item">
+                            <div class="cred-icon">🎓</div>
+                            <div>
+                                <strong>Formação</strong>
+                                <span>Psicologia — USP (2015)</span>
+                            </div>
+                        </div>
+                        <div class="cred-item">
+                            <div class="cred-icon">📚</div>
+                            <div>
+                                <strong>Especialização</strong>
+                                <span>TCC — Instituto Beck Brasil</span>
+                            </div>
+                        </div>
+                        <div class="cred-item">
+                            <div class="cred-icon">🌱</div>
+                            <div>
+                                <strong>Pós-Graduação</strong>
+                                <span>Psicologia Positiva — PUC-SP</span>
+                            </div>
+                        </div>
+                        <div class="cred-item">
+                            <div class="cred-icon">🏅</div>
+                            <div>
+                                <strong>Registro</strong>
+                                <span>CRP 06/123456</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services">
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="section-label">O que ofereço</p>
+                <h2>Serviços pensados para <em>você</em></h2>
+                <p class="section-sub">Cada processo terapêutico é único. Trabalho com abordagens personalizadas para
+                    atender às suas necessidades específicas.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card reveal">
+                    <div class="service-icon">🌬️</div>
+                    <h3>Terapia para Ansiedade</h3>
+                    <p>Aprenda a identificar e manejar os gatilhos que alimentam a ansiedade. Desenvolva ferramentas
+                        práticas para viver com mais calma e presença.</p>
+                    <a href="#contact" class="service-link">Saiba mais →</a>
+                </div>
+                <div class="service-card reveal delay-1">
+                    <div class="service-icon">💞</div>
+                    <h3>Terapia de Casal e Relacionamentos</h3>
+                    <p>Fortaleça a comunicação, reconecte-se com seu parceiro e construa relacionamentos mais saudáveis
+                        e significativos.</p>
+                    <a href="#contact" class="service-link">Saiba mais →</a>
+                </div>
+                <div class="service-card reveal delay-2">
+                    <div class="service-icon">✨</div>
+                    <h3>Autoestima e Desenvolvimento</h3>
+                    <p>Descubra seus padrões limitantes, reconstrua a autoconfiança e desenvolva uma relação mais
+                        compassiva com você mesmo.</p>
+                    <a href="#contact" class="service-link">Saiba mais →</a>
+                </div>
+                <div class="service-card reveal delay-3">
+                    <div class="service-icon">💻</div>
+                    <h3>Atendimento Online</h3>
+                    <p>Sessões por videochamada segura para todo o Brasil. A mesma qualidade e confidencialidade do
+                        consultório, com a conveniência do seu espaço.</p>
+                    <a href="#contact" class="service-link">Saiba mais →</a>
+                </div>
+                <div class="service-card reveal delay-4">
+                    <div class="service-icon">🔥</div>
+                    <h3>Burnout e Estresse Ocupacional</h3>
+                    <p>Reconheça os sinais de esgotamento emocional e recupere o equilíbrio entre vida profissional e
+                        bem-estar pessoal.</p>
+                    <a href="#contact" class="service-link">Saiba mais →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section id="how">
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="section-label">Como Funciona</p>
+                <h2>Sua jornada começa aqui</h2>
+                <p class="section-sub">Um processo simples, acolhedor e adaptado ao seu ritmo.</p>
+            </div>
+            <div class="steps-grid">
+                <div class="step reveal">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h3>Consulta Inicial</h3>
+                        <p>Nossa primeira conversa é um espaço para você se apresentar e para que eu entenda o que te
+                            trouxe até aqui. Sem julgamentos, sem pressão. Apenas escuta.</p>
+                    </div>
+                </div>
+                <div class="step-connector reveal delay-1"></div>
+                <div class="step reveal delay-1">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h3>Plano Terapêutico Personalizado</h3>
+                        <p>Juntos, traçamos um caminho com objetivos claros e estratégias adaptadas à sua realidade.
+                            Cada processo é único porque você é único.</p>
+                    </div>
+                </div>
+                <div class="step-connector reveal delay-2"></div>
+                <div class="step reveal delay-2">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h3>Acompanhamento Contínuo</h3>
+                        <p>Sessões regulares para acompanhar seu progresso, superar desafios e celebrar cada conquista.
+                            Estou aqui em cada etapa da sua jornada.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials">
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="section-label">Depoimentos</p>
+                <h2>Histórias de quem escolheu <em>cuidar</em> de si</h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card reveal">
+                    <div class="stars">★★★★★</div>
+                    <p>"Comecei a terapia em um momento muito difícil da minha vida. A Dra. Sofia me ajudou a entender
+                        meus padrões e, pela primeira vez em anos, sinto que tenho clareza sobre quem sou e o que
+                        quero."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar" style="background: #c8b89a;">M</div>
+                        <div>
+                            <strong>Mariana R.</strong>
+                            <small>Paciente há 2 anos</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card featured reveal delay-1">
+                    <div class="stars">★★★★★</div>
+                    <p>"A Dra. Sofia tem uma capacidade única de criar um espaço donde você se sente seguro para ser
+                        honesto consigo mesmo. O atendimento online funcionou perfeitamente para minha rotina corrida."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar" style="background: #a8b8a0;">C</div>
+                        <div>
+                            <strong>Carlos A.</strong>
+                            <small>Atendimento online</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card reveal delay-2">
+                    <div class="stars">★★★★★</div>
+                    <p>"Depois de meses lidando com ansiedade intensa, encontrei na terapia um caminho real de
+                        transformação. Aprendi ferramentas que uso até hoje e sinto a diferença no meu dia a dia."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar" style="background: #b8a8c0;">L</div>
+                        <div>
+                            <strong>Lucia F.</strong>
+                            <small>Terapia para ansiedade</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info reveal">
+                    <p class="section-label">Vamos Conversar</p>
+                    <h2>Dê o primeiro passo</h2>
+                    <p>Agendar uma consulta é simples e sem compromisso. Entre em contato pelo formulário, WhatsApp ou
+                        e-mail — responderei em até 24 horas.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div>
+                                <strong>Consultório</strong>
+                                <span>Rua das Flores, 42 – Jardins, São Paulo/SP</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">⏰</div>
+                            <div>
+                                <strong>Horários</strong>
+                                <span>Segunda a sexta, 8h às 20h</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">✉️</div>
+                            <div>
+                                <strong>E-mail</strong>
+                                <span>contato@drasofiamendes.com.br</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://wa.me/5511999999999?text=Olá%2C%20gostaria%20de%20agendar%20uma%20consulta."
+                        class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
+                        <svg width="22" height="22" viewBox="0 0 32 32" fill="currentColor">
+                            <path
+                                d="M16 2C8.27 2 2 8.28 2 16c0 2.64.69 5.21 2 7.47L2 30l6.72-1.97A13.93 13.93 0 0016 30c7.73 0 14-6.27 14-14S23.73 2 16 2zm0 25.5c-2.37 0-4.67-.63-6.7-1.83l-.48-.28-4 1.17 1.2-3.88-.31-.5A11.47 11.47 0 014.5 16c0-6.34 5.16-11.5 11.5-11.5S27.5 9.66 27.5 16 22.34 27.5 16 27.5zm6.33-8.6c-.35-.17-2.05-1.01-2.37-1.13-.32-.11-.55-.17-.78.17s-.9 1.13-1.1 1.36c-.2.23-.4.26-.74.09-.35-.17-1.47-.54-2.8-1.72a10.5 10.5 0 01-1.93-2.4c-.2-.35-.02-.54.15-.71.15-.15.35-.4.52-.58.17-.2.23-.35.35-.58.11-.23.06-.43-.03-.6-.09-.17-.78-1.87-1.07-2.56-.28-.67-.57-.58-.78-.59h-.66c-.23 0-.6.09-.91.43-.32.35-1.2 1.17-1.2 2.85s1.23 3.3 1.4 3.53c.17.23 2.42 3.7 5.87 5.18.82.36 1.46.57 1.96.73.82.26 1.57.22 2.16.13.66-.1 2.05-.84 2.34-1.65.29-.81.29-1.5.2-1.65-.08-.14-.31-.23-.66-.4z" />
+                        </svg>
+                        Falar pelo WhatsApp
+                    </a>
+                </div>
+                <div class="contact-form-wrap reveal delay-1">
+                    <form class="contact-form" id="contact-form" novalidate>
+                        <div class="form-group">
+                            <label for="name">Nome completo</label>
+                            <input type="text" id="name" name="name" placeholder="Seu nome" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" placeholder="seu@email.com" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Telefone (opcional)</label>
+                            <input type="tel" id="phone" name="phone" placeholder="(11) 99999-9999" />
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Motivo do contato</label>
+                            <select id="subject" name="subject">
+                                <option value="">Selecione...</option>
+                                <option>Ansiedade</option>
+                                <option>Relacionamentos</option>
+                                <option>Autoestima</option>
+                                <option>Burnout / Estresse</option>
+                                <option>Atendimento Online</option>
+                                <option>Outro</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensagem</label>
+                            <textarea id="message" name="message" rows="4"
+                                placeholder="Conte um pouco sobre o que você está buscando..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full" id="form-submit">
+                            <span id="btn-text">Enviar Mensagem</span>
+                        </button>
+                        <p class="form-privacy">🔒 Suas informações são confidenciais e nunca serão compartilhadas.</p>
+                        <div id="form-success" class="form-success hidden">
+                            ✅ Mensagem enviada! Entrarei em contato em até 24 horas.
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="footer">
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <span class="nav-logo">Dr<span>a</span>. Sofia Mendes</span>
+                <p>Psicóloga Clínica · CRP 06/123456<br />São Paulo, SP · Atendimento Online para todo o Brasil</p>
+            </div>
+            <div class="footer-links">
+                <a href="#about">Sobre</a>
+                <a href="#services">Serviços</a>
+                <a href="#how">Como Funciona</a>
+                <a href="#contact">Contato</a>
+            </div>
+            <p class="footer-copy">&copy; 2026 Dra. Sofia Mendes. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
